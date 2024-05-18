@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+.cont1{
+    background-color: rgb(67, 206, 160);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    width: 100%;
+}
+.cont1 h1{
+    font-size: 20px;
+}
+.btn1{
+    background-color: aliceblue;
+    color: rgb(252, 6, 6);
+    padding: 8px;
+    font-size: 16px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.cont2{
+    padding-top: 30px;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 14px;
+}
+.cont2 h1{
+    padding-left: 40px;
+}
+.social-icons{
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    padding-right: 50px;
+}
+.social-icons li{
+    margin-right: 20px;
+    color: rgb(126, 142, 136);
+    padding-right: 10px;
+}
+.social-icons li a i{
+    color: rgb(254, 254, 254);
+}
+.cont3{
+    background-color: rgb(67, 206, 160);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20pt;
+}
+.one p{
+    color: black;
+}
+.two a i{
+    color: rgb(253, 252, 252);
+    font-size: 20px;
+    padding: 10pt;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10pt;
+}
+.two p{
+    color: rgb(253, 251, 251);
+}
+.two a i{
+    color: rgb(254, 253, 253);
+    font-size: 30px;
+    padding: 10pt;
+}
+.cont4{
+    background-color: rgb(255, 254, 254);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.cont4 ul{
+    display: flex;
+}
+.cont4 ul li{
+    list-style-type: none;
+    
+}
+.cont4 ul li a{
+    text-decoration: none;
+    color: rgb(113, 127, 122);
+}
+.cone li{
+    margin-left: 20pt;  
+}
+.cone input{
+    height: 40px;
+    width: 320px;
+}
+.cone{
+    margin-top: 20px;
+}
+.cone button{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(217, 220, 220);
+    color: rgb(72, 76, 76);
+    border: none;
+}
+.ctwo{
+    background-color:rgb(67, 206, 160) ;
+    padding-top: 25pt;
+    margin-bottom:0px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.cthree{
+    padding: 35px;
+}
+#cfour{
+    color: rgb(254, 253, 253);
+}
+.cont5{
+    background-image: url("./images/cs_img2.webp");
+    background-size: cover;
+    width:100%;
+    height: 50vh;
+}
+.cont5 h1{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 90pt;
+    font-size: 36pt;
+}
+.cont6 h1{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10pt;
+    font-size: 36pt;
+}
+.cart1 h1{
+    font-size: 18pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cart1 h3{
+    font-size: 18pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(67, 206, 160);
+}
+.btn1{
+    background-color: rgb(67, 206, 160);
+    color: rgb(234, 231, 240);
+}
+.btn2{
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+}
+.cart{
+    display: flex;
+    justify-content: space-around;
+}
+.cartc1{
+    display: flex;
+    justify-content: space-around;
+}
+.cartc2{
+    display: flex;
+    justify-content: space-around;
+}
+.btn1{
+    padding: 10pt;
+}
+.btn2{
+    padding: 10pt;
+}
+.cart1{
+    text-align: center;
+    padding-bottom: 10pt;
+}
+.cart1 img{
+    height: 280pt;
+    width: 280pt;   
+}
+.page{
+    text-align: center;
+}
+.btn3{
+    background-color: rgb(67, 206, 160);
+    padding: 15px 20px;
+    border: none;
+    font-weight: bold;
+    margin: 10pt;
+}
+.btn4{
+    background-color: rgb(252, 253, 252);
+    padding: 15px 20px;
+    border: none;
+    font-weight: bold;
+    color: black;
+}
+.footer1{
+    background-color: black;
+    padding: 20pt 30pt;
+}
+.btn5{
+    background-color: rgb(67, 206, 160);
+    padding: 15px 20px;
+    border: none;
+    font-weight: bold;
+    margin: 10pt;
+}
+.fot1 p{
+    font-size: 15pt;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.fot1 h2{
+    padding-bottom: 20pt;
+}
+.fone{
+    display: flex;
+    padding: 5pt;
+}
+.ftwo{
+    display: flex;
+    padding: 5pt;
+}
+.fot1{
+    width: 25%;
+}
+.ic ul{
+    padding: 10pt;
+}
+.para1{
+    text-align: center;
+    padding-top: 10pt;
+    font-size: 15pt;
+}
+.para1 span{
+    color: rgb(67, 206, 160);
+}
+.fone img{
+    border-radius: 5pt;
+    padding-right: 5pt;
+}
+.ftwo img{
+    border-radius: 5pt;
+    padding-right: 5pt;
+}

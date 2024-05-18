@@ -1,0 +1,515 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+.cont1{
+    background-color: rgb(67, 206, 160);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    width: 100%;
+}
+.cont1 h1{
+    font-size: 20px;
+}
+.btn1{
+    background-color: aliceblue;
+    color: rgb(252, 6, 6);
+    padding: 8px;
+    font-size: 16px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.cont2{
+    padding-top: 30px;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 14px;
+}
+.cont2 h1{
+    padding-left: 40px;
+}
+.social-icons{
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    padding-right: 50px;
+}
+.social-icons li{
+    margin-right: 20px;
+    color: rgb(126, 142, 136);
+    padding-right: 10px;
+}
+.social-icons li a i{
+    color: rgb(254, 254, 254);
+}
+.cont3{
+    background-color: rgb(67, 206, 160);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20pt;
+}
+.one p{
+    color: black;
+}
+.two a i{
+    color: rgb(253, 252, 252);
+    font-size: 20px;
+    padding: 10pt;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10pt;
+}
+.two p{
+    color: rgb(253, 251, 251);
+}
+.two a i{
+    color: rgb(254, 253, 253);
+    font-size: 30px;
+    padding: 10pt;
+}
+.cont4{
+    background-color: rgb(255, 254, 254);
+    display: flex;
+    justify-content: space-around;
+}
+.cont4 ul{
+    display: flex;
+}
+.cont4 ul li{
+    list-style-type: none;
+    
+}
+.cont4 ul li a{
+    text-decoration: none;
+    color: rgb(113, 127, 122);
+}
+.cone li{
+    margin-left: 20pt;  
+}
+.cone input{
+    height: 40px;
+    width: 320px;
+}
+.cone{
+    margin-top: 20px;
+}
+.cone button{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(217, 220, 220);
+    color: rgb(72, 76, 76);
+    border: none;
+}
+.ctwo{
+    background-color:rgb(67, 206, 160) ;
+    padding-top: 25pt;
+    margin-bottom:0px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.cthree{
+    padding: 35px;
+}
+#cfour{
+    color: rgb(254, 253, 253);
+}
+.ntg1{
+    background-image: url("./images/slider1.png");
+    background-size: cover;
+    height: 380pt;
+    width: 100%;
+}
+.home2{
+    padding: 20pt 130pt;
+    width: 62%;
+}
+.headh{
+    color: rgb(7, 7, 7);
+    font-family:sans-serif;
+    font-size: 30pt;
+    font-weight: 100;
+}
+.home2 p{
+     color: rgb(75, 72, 72);
+     font-size: 15pt;
+     padding: 20pt 0pt;
+}
+.home2 button{
+    background-color: black;
+    padding: 10pt;
+}
+.ntg2{
+    background-image: url("./images/slider2.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.left1{
+    text-align: left;
+    padding: 80pt 100pt 100pt 500pt;
+}   
+.footer1{
+    background-color: black;
+    padding: 20pt 30pt;
+}
+.left1 h1{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-bottom: 15pt;
+}
+.left1 p{
+    color: rgb(76, 74, 74);
+    font-size: 13pt;
+    padding: 10pt 0pt;
+}
+.left1 h3{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 15pt 0pt;
+}
+.sp{
+    color: rgb(82, 79, 79);
+    margin: 35pt 20pt;
+    font-size: 13pt;
+}
+.lbtn{
+    background-color: rgb(67, 206, 160);
+    padding: 13pt;
+    margin: 35pt 25pt 25pt 0pt;
+    border: none;
+}
+.lbtn2{
+    background-color: black;
+    padding: 13pt;
+    margin: 35pt 25pt 25pt 0pt;
+    border: none;
+}
+.btn5{
+    background-color: rgb(67, 206, 160);
+    padding: 15px 20px;
+    border: none;
+    font-weight: bold;
+    margin: 10pt;
+}
+.fot1 p{
+    font-size: 15pt;
+}
+.features{
+    background-color: rgb(230, 234, 236);
+    text-align: center;
+    padding-bottom: 100pt;
+}
+.fcontainer{
+    background-color: rgb(251, 251, 252);
+    width: 40%;
+    display: flex;
+    padding-bottom: 20pt;
+}
+.fbox1 h1{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-top: 20pt;
+}
+.fbox1 p{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.fbox1 button{
+    font-family: sans-serif;
+    font-weight: 100;
+    background-color: rgb(67, 206, 160);
+    padding: 12pt 20pt;
+    border: none;
+}
+.fhead{
+    font-family: sans-serif;
+    font-weight: 100;
+    color: black;
+    padding: 15pt 20pt;
+}
+.features p{
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgb(62, 61, 61);
+    padding: 25pt 20pt;
+}
+.feature1{
+    text-align: center;
+    padding: 60pt 40pt;
+}
+.feature1 h1{
+    font-family: sans-serif;
+    font-weight: 100;
+    color: black;
+    padding: 10pt 20pt;
+}
+.oneimg h3{
+    font-family: sans-serif;
+    font-weight: 100;
+    color: black;
+    padding: 10pt 20pt;
+}
+.oneimg{
+    padding-top: 40pt;
+    margin-left: 5pt;
+}
+.images{
+    display: flex;
+}
+.feature1 p{
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgb(75, 73, 73);
+    padding: 2pt 20pt;
+}
+.fcont11{
+    display: flex;
+    justify-content: space-evenly;
+}
+.shop{
+    background-color: black;
+    text-align: center;
+    padding-top: 30pt;
+}
+.shop h1{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 30pt;
+}
+.shop p{
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 10pt;
+    font-size: 15pt;
+    color: rgb(126, 135, 144);
+}
+.brand img{
+    padding: 30pt;
+}
+.hot{
+    text-align: center;
+    padding: 40pt;
+}
+.hot h1{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 30pt;
+    color: rgb(5, 5, 5);
+}
+.hot p{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 15pt;
+    color: rgb(61, 60, 60);
+}
+.imgg1 h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(67, 206, 160); 
+}
+.imgg1 h3{
+    font-family: sans-serif;
+    font-weight: 100;
+    color: black; 
+}
+.pros{
+    display: flex;
+}
+.imgg1{
+    padding: 5pt;
+}
+.blank{
+    background-color: rgb(225, 231, 234);
+    text-align: center;
+    padding: 30pt;
+}
+.blank h1{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 30pt;
+    color: rgb(5, 5, 5);
+}
+.blank p{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 12pt;
+    color: rgb(63, 63, 63);
+    padding-left: 55pt;
+}
+.fcont11{
+    background-color: rgb(250, 251, 253);
+    padding: 60pt;
+    margin-top: 20pt;
+}
+.fcont11 h4{
+     font-size: 10pt;
+     color: rgb(75, 73, 73);
+}
+.fcont11 img{
+    border-radius: 30pt;
+}
+.fbox1{
+    font-size: 12pt;
+}
+.lblog{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 25pt 35pt;
+}
+.lblog h1{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 30pt;
+    color: rgb(5, 5, 5);
+}
+.lblog p{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 15pt;
+    color: rgb(66, 65, 65);
+}
+.part1 h2{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15pt;
+    padding: 12pt 0pt;
+}
+.part1 h3{
+    color: rgb(67, 206, 160);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15pt;
+    padding: 12pt 0pt;
+}
+.part1{
+    background-color: white;
+    height: 640pt;
+    width: 140%;
+    text-align: left;
+    padding: 10pt;
+}
+.rrrr h2{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15pt;
+    padding: 12pt 0pt;
+}
+.rrrr h3{
+    color: rgb(67, 206, 160);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15pt;
+    padding: 12pt 0pt;
+}
+.rrrr p{
+    font-size: small;
+}
+.lone{
+    background-color: white;
+    height: 200pt;
+    width: 100%;
+    text-align: left;
+    padding: 10pt;
+    margin-left: 5pt;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10pt;
+}
+.lone img{
+    padding-top: 20pt;
+}
+.bigone{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40pt;
+}
+.rrrr{
+    padding-right: 10pt;
+}
+.lastone{
+    background-image: url("./images/slider3_files/slider1.png");
+    background-size: cover;
+    height: 340pt;
+    width: 100%;
+}
+.lastone1 h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: rgb(4, 4, 4);
+}
+.lastone1 p{
+    color: rgb(61, 60, 60);
+    font-size: 15pt;
+    padding-top: 15pt;
+    padding-bottom: 15px;
+}
+.lastone1 input{
+    height: 30pt;
+    width: 280pt;
+    margin-left: 0px;
+}
+.lastone1 button{
+    height: 30pt;
+    width: 80pt;
+    background-color: rgb(67, 206, 160);
+    border: none;
+    margin-left: 0px;
+}
+.lastone1{
+    padding: 100pt 90pt;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.fot1 h2{
+    padding-bottom: 20pt;
+}
+.fone{
+    display: flex;
+    padding: 5pt;
+}
+.ftwo{
+    display: flex;
+    padding: 5pt;
+}
+.fot1{
+    width: 25%;
+}
+.ic ul{
+    padding: 10pt;
+}
+.para1{
+    text-align: center;
+    padding-top: 10pt;
+    font-size: 15pt;
+}
+.para1 span{
+    color: rgb(67, 206, 160);
+}
+.fone img{
+    border-radius: 5pt;
+    padding-right: 5pt;
+}
+.ftwo img{
+    border-radius: 5pt;
+    padding-right: 5pt;
+}
